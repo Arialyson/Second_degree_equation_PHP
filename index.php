@@ -11,6 +11,7 @@
         $var_a = 4;
         $var_b = 2;
         $var_c = -6;
+        //calculo do descriminate
         $delta = $var_b**2 -4 *$var_a *$var_c;
         echo "O valor do descriminante delta é: $delta";
         $x1 = (- $var_b + ($delta**(1/2)))/(2* $var_a);
