@@ -14,10 +14,13 @@
         //calculo do descriminate
         $delta = $var_b**2 -4 *$var_a *$var_c;
         echo "O valor do descriminante delta é: $delta";
+        //valor da primeria raiz, caso tenha 
         $x1 = (- $var_b + ($delta**(1/2)))/(2* $var_a);
         echo "O valor da raíz x1 é: $x1";
+        // valor da segunda raiz, caso tenha
         $x2 = (- $var_b - ($delta**(1/2)))/(2* $var_a);
         echo "O valor da raíz x2 é: $x2";
+        //condições 
                
     ?>
 </body>
